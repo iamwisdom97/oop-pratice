@@ -1,4 +1,4 @@
-package org.example;
+package org.example.TestCode;
 
 @FunctionalInterface 
 public interface PasswordGenerator {
