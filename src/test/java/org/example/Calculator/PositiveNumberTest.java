@@ -1,6 +1,6 @@
-package org.example;
+package org.example.Calculator;
 
-import org.example.Calculation.calculate.PositiveNumber;
+import org.example.Calculator.calculate.PositiveNumber;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 

@@ -1,4 +1,4 @@
-package org.example.Calculation;
+package org.example.Calculator;
 
 public class Calcuraton {
     public static int PositiveNumber(int operand1, String operator, int operand2) {
