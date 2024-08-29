@@ -13,7 +13,6 @@ public class CookingTest {
         MenuItem menuItem = new MenuItem("돈까스", 5000);
 
         Cook cook = cooking.makeCook(menuItem);
-
         assertThat(cook).isEqualTo(new Cook("돈까스", 5000 ));
     }
 }

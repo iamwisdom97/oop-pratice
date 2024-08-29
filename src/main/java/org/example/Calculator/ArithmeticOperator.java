@@ -26,8 +26,7 @@ public enum ArithmeticOperator  {
     };
 
     private String operator;
-
-
+    
     ArithmeticOperator(String operator) {
         this.operator = operator;
     }
@@ -39,6 +38,7 @@ public enum ArithmeticOperator  {
                 .filter(v -> v.operator.equals(operator))
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException("올바른 사칙연산이 아닙니다."));
+
 
         return arithmeticOperator.ARithmeticCalculate(operand1, operand2);
     }
